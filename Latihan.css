@@ -1,0 +1,150 @@
+
+<style media="screen">
+div{
+  width: 80%;
+  margin: 0 auto;
+  height: 100px;
+}
+.bgcolor{ background-color: #ff4533; }
+.bgimage{ background-image: url("batako.jpg"); }
+.bgposition{
+  height: 350px;
+  background: url("fav.png") #820004 no-repeat left;
+}
+.gradient1{ background:linear-gradient(to right, red, yellow, green);}
+.gradient2{ background:linear-gradient(red, yellow, green);}
+</style>
+<style media="screen">
+body{ backgroud-color: #247b9e;
+}
+div.container{
+  margin: 0 auto;
+  width: 90%;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #820215;
+}
+nav{
+  width: 20%;
+  height: 800px;
+  background: #002f42;
+  float: left;
+}
+div.content{
+  width: 80%;
+  height: 800px;
+  background: #fff;
+  float: right;
+}
+footer{
+  width: 100%;
+  height: 50px;
+  background: #016060;
+}
+</style>
+<style media="screen">
+.maroon { color: #720000; }
+.navy { color: #384F83; }
+.indigo { color: #7B89D4; }
+.spacing{ letter-spacing: 3px; word-spacing: 6px; line-height: 22px;
+}
+.uppercase{ text-transform:uppercase; }
+.lowercase{ text-transform:lowercase; }
+.capitalize{ text-transform:capitalize; }
+.paragraf{
+  font-family: "Courier New";
+  font-size: 20px;
+}
+ul{list-style-type:cirle;}
+li{font-family: "Tahoma";font-size: 15px;}
+</style>
+<style media="screen">
+.btn-red{ padding:10px; background: #ff4533; color:#fff;}
+.btn-blue{ padding:10px; background: #02496d; color:#fff;}
+.btn-green{ padding:10px; background: #338401; color:#fff;}
+.solid{
+  border-style: solid; border-width: 4px; border-color: #000;
+}
+.dotted{
+  border-style: dotted; border-width: 4px; border-color: #000;
+}
+.double{
+  border-style: double; border-width: 4px; border-color: #000;
+}
+.ridge{
+  border-style: ridge; border-width: 4px;
+}
+.inset{
+  border-style: inset; border-width: 4px;
+}
+.outset{
+  border-style: outset; border-width: 4px;
+}
+.round{
+  border-radius: 20px;
+}
+</style>
+<style media="screen">
+.container{
+  width:50%;
+  height: 200px;
+  overflow: auto;
+  margin-left: :0 auto;
+}
+.static{ position: static; border: 2px solid green; }
+.relative{
+  position: relative;
+  border: 2px solid red;
+  left: 20px;
+  bottom: 0;
+}
+.absolute { position: absolute; border: 2px solid blue; left: 20px; bottom: 40px; }
+.fixed{ position: fixed; border: 2px solid black; bottom: 0; right: 0; }
+.sticky{
+  position: sticky;
+  border: 2px solid yellow;
+  top:0;
+  left: 20px;
+  background: darkblue;
+  color: white
+}
+</style>
+<style media="screen">
+.menu{margin:0; width:100%; position:sticky;}
+ul.horizontal{
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+  overflow:hidden;
+  background-color: #d10202;
+}
+ul.horizontal li { float: left;}
+ul.horizontal li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+ul.horizontal li a:hover{ background-color: #6b0101; }
+ul.vertical{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #e2e0e0;
+}
+ul.vertical li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  text-align: left;
+}
+ul.vertical li a:hover{
+  background-color: #777777;
+  color: white;
+}
+</style>
